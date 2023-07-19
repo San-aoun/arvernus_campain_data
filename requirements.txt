@@ -1,0 +1,3 @@
+selenium
+xlrd
+webdriver-manager

@@ -1,0 +1,9 @@
+from GetDataDetail.AmazonWebsite.getDataFromAmazonWebsite import Amazon
+from GetDataDetail.GoogleSheet.getHeaderNameFromExcel import get_header_name
+from Helper.properties import *
+
+"""Amazon"""
+amazon = Amazon()
+amazon.goToWebsite(get_settings()['DEFAULT-BASE-URL'])
+
+"""GoogleSheet"""
